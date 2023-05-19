@@ -1,0 +1,5 @@
+server:
+  port: 4500
+myVar:
+  authCode: xyz458
+  devName: Tommaso

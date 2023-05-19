@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "ee5e4e3f-d6e7-4d7b-8c2f-0183324ea440",
+		"name": "EnvironmentVariables1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26099444",
+		"_collection_link": "https://grey-eclipse-85596.postman.co/workspace/My-Workspace~86a21c66-3080-4d38-8c0b-baa024158f96/collection/26099444-ee5e4e3f-d6e7-4d7b-8c2f-0183324ea440?action=share&creator=26099444&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
