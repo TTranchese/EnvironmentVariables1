@@ -13,6 +13,6 @@ public class Controller {
 	public Environment environment;
 	@GetMapping
 	public String getController(){
-		return "Hi! authCode:"+environment.getProperty("myVar.authCode")+" dev:"+environment.getProperty("myVar.devName");
+		return "Hi! authCode:"+environment.getProperty("authCode")+" dev:"+environment.getProperty("devName");
 	}
 }
