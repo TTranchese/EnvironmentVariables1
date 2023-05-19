@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class Controller {
 	@Autowired
-	public Environment environment;
+	private Environment environment;
 	
 	@GetMapping
 	public String getController() {
-		return "Hi! authCode:" + environment.getProperty("authCode") + " dev:" + environment.getProperty("devName");
+		return "Hi!"
+				+ " authCode:" + environment.getProperty("authCode")
+				+ " dev:" + environment.getProperty("devName");
 	}
 }
